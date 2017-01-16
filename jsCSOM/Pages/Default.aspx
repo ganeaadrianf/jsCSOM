@@ -34,7 +34,7 @@
             initializing...
         </p>
         <input type="button" id="btnLoadLists" value="load lists" />
-
+        <a href="Lists/Products">Products</a>
 
     </div>
 
