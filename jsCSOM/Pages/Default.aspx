@@ -33,7 +33,8 @@
             <!-- The following content will be replaced with the user name when you run the app - see App.js -->
             initializing...
         </p>
-        <input type="button" id="btnLoadLists" value="load lists" />
+        <input type="button" id="btnSelectFields" value="select fields" />
+        <a href="../Lists/Categories">Categories</a>
         <a href="../Lists/Products">Products</a>
 
     </div>
