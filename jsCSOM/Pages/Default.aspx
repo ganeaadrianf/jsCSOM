@@ -30,13 +30,15 @@
 
     <div>
         <p id="message">
-            <!-- The following content will be replaced with the user name when you run the app - see App.js -->
-            initializing...
+
         </p>
         <input type="button" id="btnSelectFields" value="select fields" />
+        <br />
+        <input type="button" id="btnNestedIncludes" value="nested includes" />
+        <br />
         <a href="../Lists/Categories">Categories</a>
         <a href="../Lists/Products">Products</a>
-
+        <br />
     </div>
 
 </asp:Content>
