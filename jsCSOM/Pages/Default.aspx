@@ -36,6 +36,12 @@
         <br />
         <input type="button" id="btnNestedIncludes" value="nested includes" />
         <br />
+        <input type="button" id="btnCAMLQuery" value="CAML query" />
+        <br />
+        <input type="button" id="btnAddList" value="add a list" />
+        <br />
+        <input type="button" id="btnBatchExceptionHandling" value="Batch exception handling" />
+        <br />
         <a href="../Lists/Categories">Categories</a>
         <a href="../Lists/Products">Products</a>
         <br />
