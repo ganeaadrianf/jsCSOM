@@ -27,7 +27,12 @@
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
-
+    <style>
+    .error {
+        font-weight:bold;
+        color:#c00;
+    }
+    </style>
     <div>
         <p id="message">
 
@@ -42,8 +47,22 @@
         <br />
         <input type="button" id="btnBatchExceptionHandling" value="Batch exception handling" />
         <br />
-        <a href="../Lists/Categories">Categories</a>
-        <a href="../Lists/Products">Products</a>
+        <input type="button" id="btnAddItem" value="Add an item" />
+        <br /> 
+        <input type="button" id="btnUpdateItem" value="update first item" />
+        <br />
+        <input type="button" id="btnWebProxy" value="Web Proxy" />
+        <br />
+        <input type="button" id="btnCreateLibrary" value="Create Custom Library" />
+        <br />
+        <input type="button" id="btnUploadDocument" value="Upload document to library" />
+        <input type="file" id="btnUploadFile" />
+        <br />
+
+
+        <a href="../Lists/Categories">Categories</a>|
+        <a href="../Lists/Products">Products</a>|
+         <a href="../ProjectDocuments">ProjectDocuments</a>
         <br />
     </div>
 
