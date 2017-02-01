@@ -17,4 +17,8 @@
   <RemoteEndpoints>
     <RemoteEndpoint Url="http://services.odata.org" />
   </RemoteEndpoints>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/taxonomy" Right="Write" />
+    <AppPermissionRequest Scope="http://sharepoint/social/tenant" Right="Read" />
+  </AppPermissionRequests>
 </App>
